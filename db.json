@@ -1,0 +1,14 @@
+{
+    "pokemon": [
+        { "id": 1, "name": "Bulbasaur" },
+        { "id": 2, "name": "Charzard" },
+        { "id": 3, "name": "Celebi" },
+        { "id": 4, "name": "Chansey" },
+        { "id": 5, "name": "Dodrio" },
+        { "id": 6, "name": "Deyoxys" },
+        { "id": 7, "name": "Ekans" },
+        { "id": 8, "name": "Arboc" },
+        { "id": 9, "name": "Hitmonchan" },
+        { "id": 10, "name": "Hitmonlee" }
+    ]
+}
