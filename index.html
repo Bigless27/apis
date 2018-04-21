@@ -8,7 +8,7 @@
     <title>Api tutorial</title>
     <link rel="stylesheet" href="style.css">
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+
     <link rel="icon" href="loc-fav.png">
 </head>
 
@@ -17,15 +17,16 @@
         <img src="loc-logo.png" alt="brand logo" height="60" width="250">
     </div>
     <div class="flex-container btn-container">
-        <button class="btn btn--stripe btn--radius">Get request</button>
-        <button class="btn btn--stripe btn--radius">Post request</button>
-        <button class="btn btn--stripe btn--radius">Put request</button>
-        <button class="btn btn--stripe btn--radius">Delete request</button>
+        <button onclick="getPokemon()" class="btn btn--stripe btn--radius">Get request</button>
+        <button onclick="createPokemon()" class="btn btn--stripe btn--radius">Post request</button>
+        <button onclick="updatePokemon()" class="btn btn--stripe btn--radius">Put request</button>
+        <button onclick="deletePokemon()" class="btn btn--stripe btn--radius">Delete request</button>
     </div>
     <div class="results-container">
-        <div>Results</div>
-        <pre></pre>
+        <div class="res-title">Results</div>
+        <div id="content"></div>
     </div>
 </body>
+<script src="app.js"></script>
 
 </html>

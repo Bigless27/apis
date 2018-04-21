@@ -20,6 +20,17 @@
 .results-container {
     margin-top: 30px;
     width: 600px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+
+.res-title {
     text-align: center;
     color: green;
     font-size: 42px;
